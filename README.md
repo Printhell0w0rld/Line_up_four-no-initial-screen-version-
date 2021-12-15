@@ -1,6 +1,6 @@
 # Line_up_four-no-initial-screen-version-
 Line up four
-
+```python3
 import pygame,sys
 import time
 import random
@@ -162,3 +162,4 @@ while show_init:
             pygame.draw.circle(screen,[0,0,0],[65+i*60,65+j*70],25,1)
     #circle(sur, color, center, radius)
     pygame.display.update()
+```
